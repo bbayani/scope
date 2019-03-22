@@ -1,5 +1,5 @@
 
-const STANDALONE_TITLE = 'Weave Scope';
+const STANDALONE_TITLE = 'HC Stack';
 const STANDALONE = document.title === STANDALONE_TITLE;
 const SEPARATOR = ' – ';
 

@@ -41,7 +41,7 @@ GO=env $(GO_ENV) $(ARM_CC) go
 NO_CROSS_COMP=unset GOOS GOARCH
 GO_HOST=$(NO_CROSS_COMP); env $(GO_ENV) go
 WITH_GO_HOST_ENV=$(NO_CROSS_COMP); $(GO_ENV)
-IMAGE_TAG=$(shell ./tools/image-tag)
+IMAGE_TAG=a360_dev_1
 
 all: $(SCOPE_EXPORT)
 
